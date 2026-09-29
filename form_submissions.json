@@ -1,0 +1,7 @@
+[
+  {"name": "sarah chen", "email": "sarah@acme.io", "company": "acme", "budget": "$2k"},
+  {"name": "Luis ORTEGA", "email": "luis@beta.co", "company": "beta labs", "budget": "$5k"},
+  {"name": "amy parker", "email": "not-an-email", "company": "gamma", "budget": "$1k"},
+  {"name": "Tom Reed", "email": "sarah@acme.io", "company": "dupe check", "budget": "$3k"},
+  {"name": "nina patel", "email": "nina@delta.io", "company": "delta", "budget": "$8k"}
+]

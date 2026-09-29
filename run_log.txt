@@ -1,0 +1,20 @@
+[14:04:51] TRIGGER: Form webhook received
+[14:04:51] STEP 1: Loaded 5 submissions
+[14:04:51] STEP 2: Validated — 3 new, 2 rejected
+[14:04:51] STEP 3: Upserted 3 contacts -> crm_contacts.csv
+[14:04:51] NOTIFY: Email queued to sarah@acme.io (welcome + intro)
+[14:04:51] NOTIFY: Email queued to luis@beta.co (welcome + intro)
+[14:04:51] NOTIFY: Email queued to nina@delta.io (welcome + intro)
+[14:04:51] DONE: Workflow completed successfully
+------------------------------------------------------------
+[16:38:36] TRIGGER: Form webhook received
+[16:38:36] STEP 1: Loaded 5 submissions
+[16:38:36] STEP 2: Validated — 0 new, 5 rejected
+[16:38:36] STEP 3: Upserted 0 contacts -> crm_contacts.csv
+[16:38:36] DONE: Workflow completed successfully
+------------------------------------------------------------
+[17:21:08] TRIGGER: Form webhook received
+[17:21:08] STEP 1: Loaded 5 submissions
+[17:21:08] STEP 2: Validated — 0 new, 5 rejected
+[17:21:08] STEP 3: Upserted 0 contacts -> crm_contacts.csv
+[17:21:08] DONE: Workflow completed successfully
