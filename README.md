@@ -1,7 +1,7 @@
-# Demo 3 — form-to-CRM automation
+# Form-to-CRM Pipeline (Validation, Dedupe, Idempotent Upsert)
 
 A webhook-triggered pipeline: form submission → validation → CRM upsert →
-per-contact email. Everything the listing claims is produced by `automate.py`,
+per-contact email. Everything described below is produced by `automate.py`,
 and `run_log.txt` is a real execution log, not an illustration.
 
 ## What it does
@@ -36,8 +36,7 @@ converges on the same rows.
 **The run log destroyed itself.** It was opened with mode `"w"`, so every run
 overwrote the previous log. That matters more than it looks: the second run
 correctly re-validated all five contacts as duplicates and reported
-`Upserted 0 contacts` — while `crm_contacts.csv` still held three rows. The log
-did not merely get lost, it **contradicted the data**. The file is now the
+`Upserted 0 contacts` — while `crm_contacts.csv` still held three rows. The log was lost and contradicted the underlying data. The file is now the
 evidence that the workflow ran, so it appends behind a separator instead.
 
 **`os` was never imported.** Found while fixing the first one — a missing-import
